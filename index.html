@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日本驾考笔试核心考点速记</title>
+    <!-- 使用 Tailwind CSS v4 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        /* 针对紧凑阅读的自定义微调 */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #f3f4f6; /* gray-100 */
+        }
+        .highlight {
+            background-color: #fef3c7; /* yellow-100 */
+            padding: 0 2px;
+            border-radius: 2px;
+        }
+        .rule-item {
+            position: relative;
+            padding-left: 1rem;
+        }
+        .rule-item::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #9ca3af;
+        }
+    </style>
+</head>
+<body class="pb-20">
+
+    <!-- 顶部导航 -->
+    <header class="bg-indigo-700 text-white p-3 sticky top-0 z-50 shadow-md">
+        <div class="max-w-3xl mx-auto flex justify-between items-center">
+            <h1 class="font-bold text-lg">🇯🇵 日本驾考笔试速记本</h1>
+            <span class="text-xs bg-indigo-600 px-2 py-1 rounded">完整版</span>
+        </div>
+    </header>
+
+    <main class="max-w-3xl mx-auto p-3 space-y-4">
+
+        <!-- SECTION: 信号器信号的识别 -->
+        <section class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
+            <!-- 标题栏 -->
+            <div class="bg-gray-50 px-4 py-2 border-b border-gray-200 flex items-center justify-between">
+                <h2 class="font-bold text-gray-800 text-base">🚦 信号器信号的识别</h2>
+                <span class="text-xs text-gray-500">基础篇</span>
+            </div>
+
+            <!-- 内容区 -->
+            <div class="p-4 text-sm text-gray-700 space-y-3 leading-snug">
+
+                <!-- 基本原则 -->
+                <div class="flex gap-2 items-start">
+                    <span class="bg-gray-200 text-gray-700 text-xs font-bold px-1.5 py-0.5 rounded shrink-0 mt-0.5">原则</span>
+                    <p>通常遵从<span class="font-bold text-gray-900">前方 (对面)</span> 的信号。</p>
+                </div>
+
+                <hr class="border-gray-100">
+
+                <!-- 绿灯 -->
+                <div class="flex gap-2 items-start group">
+                    <div class="w-3 h-3 rounded-full bg-green-500 shrink-0 mt-1 shadow-sm"></div>
+                    <div>
+                        <span class="font-bold text-gray-900 block mb-1">绿灯 (实心)</span>
+                        <ul class="space-y-1">
+                            <li class="rule-item">可以<span class="font-bold">直行、左转弯、右转弯</span>。</li>
+                            <li class="rule-item text-xs text-red-600 bg-red-50 p-1 rounded">
+                                <span class="font-bold">例外：</span>需<span class="font-bold">两次性右转弯</span>的轻便机动车(原付)、轻型车辆除外。
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 黄灯 -->
+                <div class="flex gap-2 items-start group">
+                    <div class="w-3 h-3 rounded-full bg-yellow-400 shrink-0 mt-1 shadow-sm"></div>
+                    <div>
+                        <span class="font-bold text-gray-900 block mb-1">信号变为黄灯时</span>
+                        <ul class="space-y-1">
+                            <li class="rule-item">原则上在<span class="font-bold border-b-2 border-yellow-400">停车线上停下</span>。</li>
+                            <li class="rule-item">若<span class="font-bold">不能安全停止</span>在停车线上时，可以<span class="font-bold">就这样通过</span>。</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 红灯 -->
+                <div class="flex gap-2 items-start group">
+                    <div class="w-3 h-3 rounded-full bg-red-500 shrink-0 mt-1 shadow-sm"></div>
+                    <div>
+                        <span class="font-bold text-gray-900 block mb-1">红灯</span>
+                        <p class="rule-item">若<span class="font-bold">已经在</span>右转弯或左转弯时，由此可以<span class="font-bold">继续</span>右转弯、左转弯（完成动作）。</p>
+                    </div>
+                </div>
+
+                <hr class="border-gray-100">
+
+                <!-- 箭头信号 -->
+                <div class="grid grid-cols-1 gap-3">
+                    <!-- 绿箭头 -->
+                    <div class="flex gap-2 items-start">
+                        <span class="text-green-600 font-bold shrink-0">⬆️ 绿灯箭头</span>
+                        <div>
+                            <p class="mb-1">车辆可以朝<span class="font-bold text-green-700">箭头方向</span>行驶。</p>
+                            <div class="bg-gray-50 p-1.5 rounded border-l-2 border-green-500 text-xs">
+                                <span class="font-bold">右转箭头 (➡️) 特例：</span>
+                                可以向右转弯、<span class="font-bold highlight">掉头 (U-turn)</span>。<br>
+                                <span class="text-gray-500 transform scale-90 origin-left block mt-1">* 需分两次性右转的机动自行车/轻型车辆 <span class="text-red-600 font-bold">不得进入</span> 交叉口。</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 黄箭头 -->
+                    <div class="flex gap-2 items-start">
+                        <span class="text-yellow-500 font-bold shrink-0">⚠️ 黄灯箭头</span>
+                        <p>只有<span class="font-bold highlight">有轨电车</span>可以朝箭头方向行进。</p>
+                    </div>
+                </div>
+
+                <hr class="border-gray-100">
+
+                <!-- 闪烁信号 -->
+                <div class="grid grid-cols-2 gap-3 mt-1">
+                    <div class="bg-yellow-50 p-2 rounded border border-yellow-200">
+                        <div class="flex items-center gap-1 mb-1">
+                            <div class="w-2 h-2 rounded-full bg-yellow-400 animate-pulse"></div>
+                            <span class="font-bold text-yellow-700">黄灯闪烁</span>
+                        </div>
+                        <p class="text-xs"><span class="font-bold">留意</span>周围交通状况后<span class="font-bold">通过</span> (无需完全停止)。</p>
+                    </div>
+
+                    <div class="bg-red-50 p-2 rounded border border-red-200">
+                        <div class="flex items-center gap-1 mb-1">
+                            <div class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></div>
+                            <span class="font-bold text-red-700">红灯闪烁</span>
+                        </div>
+                        <p class="text-xs"><span class="font-bold border-b-2 border-red-400">先停一下车</span> (一时停止)，确认安全后行进。</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION: 车辆通行规则 -->
+        <section class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
+            <div class="bg-gray-50 px-4 py-2 border-b border-gray-200 flex items-center justify-between">
+                <h2 class="font-bold text-gray-800 text-base">🛣️ 车辆通行场所与车道</h2>
+                <span class="text-xs text-gray-500">通行区分篇</span>
+            </div>
+
+            <div class="p-4 text-sm text-gray-700 space-y-4">
+
+                <!-- 靠左行驶与例外 -->
+                <div>
+                    <h3 class="font-bold text-gray-900 text-xs mb-2 flex items-center gap-2">
+                        <span class="w-2 h-2 bg-indigo-500 rounded-full"></span>
+                        靠左行驶原则 & 例外
+                    </h3>
+                    <div class="bg-indigo-50 p-3 rounded border border-indigo-100 space-y-2">
+                        <p class="text-xs font-bold text-indigo-900">原则上靠左行驶，但以下情况 <span class="bg-white px-1 rounded border border-indigo-200">可偏出到道路右侧</span>：</p>
+                        <ul class="space-y-1 text-xs list-disc list-inside text-gray-700 marker:text-indigo-400">
+                            <li><span class="font-bold">单向通行</span>时。</li>
+                            <li>左侧宽度<span class="font-bold">不足以</span>通行时。</li>
+                            <li>由于<span class="font-bold">施工</span>等，左侧不能通过时。</li>
+                            <li>有<span class="font-bold">「右侧通行」</span>标记时。</li>
+                            <li>在<span class="font-bold">左侧不足6米</span>且<span class="font-bold">视线良好</span>的道路上，为了<span class="font-bold text-red-600">超越其他车辆</span>时（禁超标志除外）。</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 车道选择规则 -->
+                <div class="grid grid-cols-1 gap-2">
+                    <div class="bg-white border border-gray-200 p-2 rounded flex flex-col gap-1">
+                        <span class="text-xs font-bold bg-gray-100 px-1 py-0.5 rounded w-fit">无车道道路</span>
+                        <div class="text-xs pl-1">
+                            <span class="font-bold text-blue-600">轻型车/原付 (轻便机动车)</span>：往道路<span class="font-bold">最左侧</span>。<br>
+                            <span class="font-bold">普通车辆</span>：往道路<span class="font-bold">左侧偏左</span>通行。
+                        </div>
+                    </div>
+
+                    <div class="bg-white border border-gray-200 p-2 rounded flex flex-col gap-1">
+                        <span class="text-xs font-bold bg-gray-100 px-1 py-0.5 rounded w-fit">两条车道</span>
+                        <p class="text-xs pl-1">不论车种都朝<span class="font-bold">左侧</span>车道通行。<br><span class="text-gray-500">(空出右侧车道用于超车、右转)。</span></p>
+                    </div>
+
+                    <div class="bg-white border border-gray-200 p-2 rounded flex flex-col gap-1">
+                        <span class="text-xs font-bold bg-gray-100 px-1 py-0.5 rounded w-fit">三条以上车道</span>
+                        <p class="text-xs pl-1">
+                            <span class="font-bold text-red-500">最右侧</span>：<span class="font-bold">空出</span> (留作超车用)。<br>
+                            <span class="text-gray-600">其余车道：车速慢的左侧，车速快的右侧。</span>
+                        </p>
+                    </div>
+                </div>
+
+                <hr class="border-gray-100">
+
+                <!-- 公交车道规则 -->
+                <div>
+                    <h3 class="font-bold text-gray-900 text-xs mb-2 flex items-center gap-2">
+                        <span class="w-2 h-2 bg-orange-500 rounded-full"></span>
+                        交通线路巴士 (公交车) 车道
+                    </h3>
+                    <div class="space-y-2 text-xs">
+                        <div class="bg-orange-50 p-2 rounded border border-orange-100">
+                            <span class="font-bold text-orange-800 block mb-1">专用通行道 (专用道)</span>
+                            <ul class="list-none space-y-1">
+                                <li class="rule-item">原则上其他车辆<span class="font-bold">不得通行</span>。</li>
+                                <li class="rule-item text-gray-600"><span class="font-bold text-orange-700">例外可通行：</span>左转弯时、施工迫不得已时、<span class="font-bold">小特/原付/轻型车</span>。</li>
+                            </ul>
+                        </div>
+                        <div class="bg-yellow-50 p-2 rounded border border-yellow-100">
+                            <span class="font-bold text-yellow-800 block mb-1">优先通行道 (优先道)</span>
+                            <ul class="list-none space-y-1">
+                                <li class="rule-item">可以通行，但<span class="font-bold">拥堵时不得进入</span>。</li>
+                                <li class="rule-item">若进入后后方有公交车驶近，必须<span class="font-bold text-red-600">马上驶离</span>。</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION: 禁止通行与横断 -->
+        <section class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
+            <div class="bg-gray-50 px-4 py-2 border-b border-gray-200 flex items-center justify-between">
+                <h2 class="font-bold text-gray-800 text-base">🚫 不可通行场所 & 陷阱</h2>
+                <span class="text-xs text-gray-500">禁区篇</span>
+            </div>
+
+            <div class="p-4 text-sm text-gray-700 space-y-3">
+
+                <!-- 绝对禁区 -->
+                <div class="flex flex-wrap gap-2 text-xs font-bold text-gray-600">
+                    <span class="bg-gray-100 px-2 py-1 rounded">🚫 安全地带</span>
+                    <span class="bg-gray-100 px-2 py-1 rounded">🚫 禁止进入区域</span>
+                </div>
+
+                <!-- 横穿规则 (超级重点) -->
+                <div class="bg-red-50 p-3 rounded border border-red-200">
+                    <h3 class="font-bold text-red-800 text-xs mb-1">⚠️ 横穿人行道/自行车道/路边带时</h3>
+                    <p class="text-xs mb-2">可以横向穿过进入设施，但必须遵守：</p>
+                    <div class="flex items-center gap-2 bg-white p-2 rounded shadow-sm border border-red-100">
+                        <span class="text-xl">🛑</span>
+                        <span class="font-bold text-red-600 text-sm">
+                            即便没有行人，<br>也一定要 <span class="underline decoration-2 underline-offset-2">暂时停止 (一时停止)</span>！
+                        </span>
+                    </div>
+                </div>
+
+                <!-- 轨道设施 -->
+                <div class="flex gap-2 items-start text-xs text-gray-600">
+                    <span class="bg-gray-200 font-bold px-1.5 py-0.5 rounded shrink-0">轨道内</span>
+                    <p>原则禁止。但<span class="font-bold">有标记</span>、<span class="font-bold">避险</span>、<span class="font-bold">转弯/横穿</span>时可以通行。</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION: 驻停车禁止 vs 驻车禁止 -->
+        <section class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
+            <div class="bg-gray-50 px-4 py-2 border-b border-gray-200 flex items-center justify-between">
+                <h2 class="font-bold text-gray-800 text-base">🅿️ 停车规则 (必考数字)</h2>
+                <span class="text-xs text-gray-500">记忆篇</span>
+            </div>
+
+            <div class="p-4 text-sm text-gray-700 space-y-4">
+
+                <!-- 1. 绝对禁区 (驻停车禁止) -->
+                <div class="relative pl-3 border-l-4 border-red-500">
+                    <h3 class="font-bold text-red-700 mb-2 text-base">🚫 禁止“停放” & “停车”</h3>
+                    <p class="text-xs text-gray-500 mb-2">任何时间都不行（临时停车也不行）。</p>
+
+                    <div class="space-y-2">
+                        <!-- 特定场所 -->
+                        <div class="bg-red-50 p-2 rounded text-xs">
+                            <span class="font-bold block mb-1">📍 场所：</span>
+                            <div class="grid grid-cols-2 gap-1">
+                                <span>• 隧道</span>
+                                <span>• 轨道设施内</span>
+                                <span>• 斜坡顶部附近</span>
+                                <span>• 陡急的斜坡</span>
+                            </div>
+                        </div>
+
+                        <!-- 距离规则 5米 -->
+                        <div class="flex items-center gap-2 text-xs bg-white border border-gray-200 p-2 rounded">
+                            <span class="bg-red-600 text-white font-bold px-2 py-1 rounded shrink-0">5米以内</span>
+                            <ul class="list-none space-y-0.5">
+                                <li>• <span class="font-bold">交叉路口</span> (及四周)</li>
+                                <li>• <span class="font-bold">道路转弯角</span></li>
+                                <li>• <span class="font-bold">横道线</span> (及前后)</li>
+                                <li>• <span class="font-bold">自行车横穿带</span> (及前后)</li>
+                            </ul>
+                        </div>
+
+                        <!-- 距离规则 10米 -->
+                        <div class="flex items-center gap-2 text-xs bg-white border border-gray-200 p-2 rounded">
+                            <span class="bg-red-800 text-white font-bold px-2 py-1 rounded shrink-0">10米以内</span>
+                            <ul class="list-none space-y-0.5">
+                                <li>• <span class="font-bold">轨道岔口</span> (及前后)</li>
+                                <li>• <span class="font-bold">安全地带</span> (左侧及前后)</li>
+                                <li>• <span class="font-bold">巴士/电车车站</span> (运行时间内)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 路边标线陷阱 -->
+                    <div class="mt-2 text-xs bg-gray-100 p-2 rounded border-l-2 border-gray-400">
+                        <span class="font-bold">⚠️ 路边标线禁停：</span><br>
+                        1. <span class="font-bold">白实线 + 虚线</span><br>
+                        2. <span class="font-bold">白实线 + 白实线 (双实线)</span>
+                    </div>
+                </div>
+
+                <hr class="border-gray-100">
+
+                <!-- 2. 相对禁区 (驻车禁止) -->
+                <div class="relative pl-3 border-l-4 border-yellow-500">
+                    <h3 class="font-bold text-yellow-700 mb-2 text-base">⚠️ 禁止“停放车辆”</h3>
+                    <p class="text-xs text-gray-500 mb-2">不能长时间停车，但<span class="font-bold text-green-600">可以临时停车</span> (上下客/装卸货5分内)。</p>
+
+                    <div class="space-y-2">
+                        <!-- 1米 -->
+                        <div class="flex items-center gap-2 text-xs bg-yellow-50 border border-yellow-100 p-2 rounded">
+                            <span class="font-bold text-yellow-800 w-16 shrink-0 text-right pr-2 border-r border-yellow-200">1米以内</span>
+                            <span>• 火灾报警器</span>
+                        </div>
+
+                        <!-- 3米 -->
+                        <div class="flex items-center gap-2 text-xs bg-yellow-50 border border-yellow-100 p-2 rounded">
+                            <span class="font-bold text-yellow-800 w-16 shrink-0 text-right pr-2 border-r border-yellow-200">3米以内</span>
+                            <span>• 停车场/车库的出入口</span>
+                        </div>
+
+                        <!-- 5米 -->
+                        <div class="flex items-center gap-2 text-xs bg-yellow-50 border border-yellow-100 p-2 rounded">
+                            <span class="font-bold text-yellow-800 w-16 shrink-0 text-right pr-2 border-r border-yellow-200">5米以内</span>
+                            <div>
+                                <span>• 道路施工区域 (一端)</span><br>
+                                <span>• <span class="font-bold highlight">消防设施</span> (水龙头/蓄水池/放水库)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 罚金说明 -->
+                <div class="text-[10px] text-gray-400 mt-2 p-2 border border-dashed border-gray-300 rounded bg-gray-50">
+                    * 如果找不到驾驶员，<span class="font-bold text-gray-600">使用者 (通常是车主)</span> 需支付违章停车罚金。
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION: 紧急车辆与人行道 -->
+        <section class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
+            <div class="bg-gray-50 px-4 py-2 border-b border-gray-200 flex items-center justify-between">
+                <h2 class="font-bold text-gray-800 text-base">🚑 紧急车辆 & 🚶 人行道规则</h2>
+                <span class="text-xs text-gray-500">避让篇</span>
+            </div>
+
+            <div class="p-4 text-sm text-gray-700 space-y-4">
+
+                <!-- 紧急车辆 -->
+                <div class="bg-red-50 p-3 rounded border border-red-100">
+                    <h3 class="font-bold text-red-800 text-xs mb-2 flex items-center gap-1">
+                        <span>🚑 紧急车辆驶近时</span>
+                    </h3>
+                    <div class="space-y-2 text-xs">
+                        <div class="flex gap-2">
+                            <span class="font-bold w-20 shrink-0">交叉路口附近</span>
+                            <span>避开交叉口，往左靠 + <span class="font-bold bg-white px-1 rounded border border-red-200 text-red-600">暂停停车</span>。</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <span class="font-bold w-20 shrink-0">非交叉路口</span>
+                            <span>往左靠 + <span class="font-bold">让路</span> (通常指减速或暂让，未强制停车)。</span>
+                        </div>
+                        <div class="flex gap-2 text-gray-500">
+                            <span class="font-bold w-20 shrink-0">单向通行时</span>
+                            <span>若左侧妨碍紧急车辆，可以<span class="font-bold text-gray-700">往右靠</span>。</span>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="border-gray-100">
+
+                <!-- 人行道规则 (重中之重) -->
+                <div>
+                    <h3 class="font-bold text-gray-900 text-xs mb-2">🦓 横穿人行道/自行车道前</h3>
+                    <div class="grid grid-cols-1 gap-2 text-xs">
+                        <!-- 有人 -->
+                        <div class="flex items-center gap-2 bg-green-50 p-2 rounded border border-green-100">
+                            <span class="font-bold text-green-800 w-16 shrink-0">有人横穿</span>
+                            <span class="font-bold">停止在停车线上</span> (让行)。
+                        </div>
+                        <!-- 不明确 -->
+                        <div class="flex items-center gap-2 bg-yellow-50 p-2 rounded border border-yellow-100">
+                            <span class="font-bold text-yellow-800 w-16 shrink-0">不能判明</span>
+                            <span>以<span class="font-bold highlight">随时能停车的速度</span>行进。</span>
+                        </div>
+                        <!-- 没人 -->
+                        <div class="flex items-center gap-2 bg-gray-50 p-2 rounded border border-gray-200 text-gray-500">
+                            <span class="font-bold w-16 shrink-0">没有行人</span>
+                            <span>按原来速度行进。</span>
+                        </div>
+                    </div>
+
+                    <!-- 两个禁止陷阱 -->
+                    <div class="mt-2 space-y-1 text-xs">
+                        <p class="pl-2 border-l-2 border-red-500">
+                            <span class="font-bold text-red-600">禁止进入：</span>前方堵塞时，即便绿灯也<span class="font-bold">就地停车</span> (不要停在人行道/路口/铁道口内)。
+                        </p>
+                        <p class="pl-2 border-l-2 border-red-500">
+                            <span class="font-bold text-red-600">30米禁止：</span>人行道及其<span class="font-bold highlight">前30米以内</span>，禁止<span class="font-bold">超车 & 变道</span>。
+                        </p>
+                    </div>
+                </div>
+
+                <hr class="border-gray-100">
+
+                <!-- 侧方通过规则 -->
+                <div>
+                    <h3 class="font-bold text-gray-900 text-xs mb-2">🚗 侧方通过时的保护义务</h3>
+                    <ul class="space-y-2 text-xs list-none">
+                        <!-- 一般行人 -->
+                        <li class="rule-item">
+                            <span class="font-bold text-gray-700">行人：</span>保持安全间距 <span class="text-gray-400">OR</span> <span class="font-bold">慢行</span>。
+                        </li>
+                        <!-- 弱势群体 -->
+                        <li class="rule-item bg-orange-50 p-1 rounded -ml-1 pl-4">
+                            <span class="font-bold text-orange-800">儿童/残障/老人：</span>必须 <span class="font-bold border-b border-orange-400">暂且停车</span> <span class="text-gray-500">OR</span> <span class="font-bold">慢行</span>。
+                        </li>
+                        <!-- 停着的车 -->
+                        <li class="rule-item">
+                            <span class="font-bold">人行道前停着的车：</span>必须 <span class="font-bold highlight text-red-600">暂且停车 (一时停止)</span> 再通过。<br>
+                            <span class="text-[10px] text-gray-400 ml-1">*防止视线盲区有行人突然冲出。</span>
+                        </li>
+                        <!-- 校车 -->
+                        <li class="rule-item">
+                            <span class="font-bold">校车/幼儿园巴士 (停车中)：</span><span class="font-bold">慢行</span> + 确认安全。
+                        </li>
+                        <!-- 有轨电车 -->
+                        <li class="rule-item">
+                            <span class="font-bold">有轨电车 (停车中)：</span>
+                            <ul class="pl-2 mt-1 space-y-1 text-gray-600 list-[square] list-inside">
+                                <li>原则：后方停车，等乘客下完。</li>
+                                <li>例外：有<span class="font-bold">安全地带</span> OR 能空出<span class="font-bold">1.5米</span>以上 + 无乘客 = <span class="font-bold text-green-600">可以慢行</span>。</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION: 动作篇 (慢行/信号/超车) -->
+        <section class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
+            <div class="bg-gray-50 px-4 py-2 border-b border-gray-200 flex items-center justify-between">
+                <h2 class="font-bold text-gray-800 text-base">🐢 慢行・💡 信号・🏎️ 超车</h2>
+                <span class="text-xs text-gray-500">动作篇</span>
+            </div>
+
+            <div class="p-4 text-sm text-gray-700 space-y-4">
+
+                <!-- 1. 必须要慢行的地方 (徐行) -->
+                <div>
+                    <h3 class="font-bold text-gray-900 text-xs mb-2 flex items-center gap-2">
+                        <span class="bg-indigo-100 text-indigo-800 px-1.5 py-0.5 rounded">🐢 必须慢行 (徐行)</span>
+                        <span class="text-[10px] text-gray-400 font-normal">*徐行 = 能立即停止的速度 (1m以内)</span>
+                    </h3>
+                    <div class="bg-indigo-50 p-2 rounded border border-indigo-100 text-xs space-y-1">
+                        <p>• 有<span class="font-bold">慢行标志</span>的地方。</p>
+                        <p>• 道路的<span class="font-bold">转角</span>附近。</p>
+                        <p>• <span class="font-bold">上坡顶部</span>附近 / 陡急的<span class="font-bold">下坡</span>。</p>
+                        <div class="bg-white p-1.5 rounded border border-indigo-200 mt-1">
+                            <span class="font-bold text-red-600">⚠️ 左右视线不佳的交叉路口</span>
+                            <p class="text-gray-500 pl-2 mt-0.5 border-l-2 border-gray-300">
+                                <span class="font-bold text-gray-700">例外 (不必慢行)：</span><br>
+                                有<span class="font-bold text-green-600">信号灯</span> OR 在<span class="font-bold text-green-600">优先道路</span>上行驶时。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="border-gray-100">
+
+                <!-- 2. 打出信号的时机 -->
+                <div class="grid grid-cols-2 gap-3 text-xs">
+                    <div class="bg-yellow-50 p-2 rounded border border-yellow-200 text-center">
+                        <span class="block text-2xl mb-1">↔️</span>
+                        <span class="font-bold text-yellow-800 block">变道 (进路变更)</span>
+                        <span class="font-bold text-xl text-gray-800">约3秒前</span>
+                    </div>
+                    <div class="bg-blue-50 p-2 rounded border border-blue-200 text-center">
+                        <span class="block text-2xl mb-1">↩️</span>
+                        <span class="font-bold text-blue-800 block">左右转 / 掉头</span>
+                        <span class="font-bold text-xl text-gray-800">30米前</span>
+                    </div>
+                </div>
+                <p class="text-[10px] text-gray-400 text-center mt-1">慢行、停车、后退时 → <span class="font-bold">做该动作之时</span></p>
+
+                <hr class="border-gray-100">
+
+                <!-- 3. 禁止超车与方法 -->
+                <div>
+                    <h3 class="font-bold text-red-800 text-xs mb-2">🚫 禁止超车场所 & 方法</h3>
+
+                    <!-- 禁止场所 -->
+                    <div class="bg-red-50 p-2 rounded border border-red-100 text-xs mb-3">
+                        <div class="grid grid-cols-2 gap-x-2 gap-y-1 mb-2">
+                            <span>• 禁超标志处</span>
+                            <span>• 道路转角</span>
+                            <span>• 坡顶 / 急下坡</span>
+                            <span>• 无车道隧道</span>
+                        </div>
+                        <div class="space-y-1">
+                            <div class="bg-white px-2 py-1 rounded border border-red-200">
+                                <span class="font-bold">交叉路口</span> (+前30米)
+                                <span class="block text-[10px] text-gray-500 pl-2 border-l-2 border-green-400 mt-0.5">
+                                    <span class="font-bold text-green-600">例外：</span>优先道路上<span class="font-bold">可以</span>超车。
+                                </span>
+                            </div>
+                            <div class="bg-white px-2 py-1 rounded border border-red-200">
+                                <span class="font-bold">横道线 / 铁道口</span> (+前30米)
+                                <span class="block text-[10px] text-red-500 font-bold pl-2 border-l-2 border-red-500 mt-0.5">
+                                    绝对禁止！(无例外)
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 超车方法 -->
+                    <div class="text-xs space-y-1 pl-1">
+                        <p>
+                            <span class="font-bold bg-gray-200 px-1 rounded">原则</span>
+                            从前车的 <span class="font-bold text-indigo-600">右侧</span> 超越。
+                        </p>
+                        <p>
+                            <span class="font-bold bg-gray-200 px-1 rounded">例外</span>
+                            前车<span class="font-bold">右转</span>并靠向中央时 → 从 <span class="font-bold text-indigo-600">左侧</span> 超越。
+                        </p>
+                        <p>
+                            <span class="font-bold bg-gray-200 px-1 rounded">电车</span>
+                            原则上从 <span class="font-bold text-indigo-600">左侧</span> 超越。
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION: 交叉路口通行法则 -->
+        <section class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
+            <div class="bg-gray-50 px-4 py-2 border-b border-gray-200 flex items-center justify-between">
+                <h2 class="font-bold text-gray-800 text-base">🚦 交叉路口通行 & 优先判断</h2>
+                <span class="text-xs text-gray-500">路权篇</span>
+            </div>
+
+            <div class="p-4 text-sm text-gray-700 space-y-4">
+
+                <!-- 1. 转弯方法与轨迹 -->
+                <div>
+                    <h3 class="font-bold text-gray-900 text-xs mb-2">↩️ 转弯位置与轨迹</h3>
+                    <div class="grid grid-cols-2 gap-3 text-xs">
+                        <!-- 左转 -->
+                        <div class="bg-blue-50 p-2 rounded border border-blue-100">
+                            <span class="font-bold text-blue-800 block mb-1">左转弯</span>
+                            <ul class="list-none space-y-1">
+                                <li>• <span class="font-bold">靠左侧</span> 行驶。</li>
+                                <li>• 沿路口侧端徐行。</li>
+                            </ul>
+                        </div>
+                        <!-- 右转 -->
+                        <div class="bg-indigo-50 p-2 rounded border border-indigo-100">
+                            <span class="font-bold text-indigo-800 block mb-1">右转弯</span>
+                            <ul class="list-none space-y-1">
+                                <li>• 普通路：<span class="font-bold">靠中央</span>。</li>
+                                <li>• 单行道：<span class="font-bold text-indigo-600">靠右侧</span> (特例)。</li>
+                                <li>• 轨迹：沿中心点<span class="font-bold">内侧</span>徐行。</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="border-gray-100">
+
+                <!-- 2. 无信号路口：谁优先？(核心逻辑) -->
+                <div>
+                    <h3 class="font-bold text-gray-900 text-xs mb-2 flex items-center gap-2">
+                        <span class="bg-purple-100 text-purple-800 px-1.5 py-0.5 rounded">⚖️ 无管制路口优先顺序</span>
+                        <span class="text-[10px] text-gray-400">从上往下判断</span>
+                    </h3>
+
+                    <div class="space-y-2 text-xs relative">
+                        <!-- 连线装饰 -->
+                        <div class="absolute left-2.5 top-2 bottom-2 w-0.5 bg-gray-200"></div>
+
+                        <!-- Level 1: 优先道路 -->
+                        <div class="relative pl-6">
+                            <div class="absolute left-0 top-1 w-5 h-5 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold text-[10px] z-10">1</div>
+                            <div class="bg-white p-2 rounded border border-purple-100 shadow-sm">
+                                <span class="font-bold text-purple-800">优先道路 / 宽阔道路 优先</span>
+                                <p class="text-gray-500 mt-0.5">标志：<span class="font-bold">优先标志</span> OR <span class="font-bold">中心线延伸</span>进路口。</p>
+                            </div>
+                        </div>
+
+                        <!-- Level 2: 左方优先 -->
+                        <div class="relative pl-6">
+                            <div class="absolute left-0 top-1 w-5 h-5 bg-purple-400 text-white rounded-full flex items-center justify-center font-bold text-[10px] z-10">2</div>
+                            <div class="bg-white p-2 rounded border border-purple-100 shadow-sm">
+                                <span class="font-bold text-gray-800">宽度相同时：左侧车辆优先</span>
+                                <p class="text-gray-500 mt-0.5"><span class="font-bold text-red-500">注意：</span>只有在同宽且无优先标志时才适用！</p>
+                            </div>
+                        </div>
+
+                        <!-- Level 3: 转弯让直行 -->
+                        <div class="relative pl-6">
+                            <div class="absolute left-0 top-1 w-5 h-5 bg-purple-300 text-white rounded-full flex items-center justify-center font-bold text-[10px] z-10">3</div>
+                            <div class="bg-white p-2 rounded border border-purple-100 shadow-sm">
+                                <span class="font-bold text-gray-800">直行/左转 优先于 右转</span>
+                                <p class="text-gray-500 mt-0.5">想右转的车，必须等对向直行/左转车先走。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION: 驾照的种类 -->
+        <section class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
+            <div class="bg-gray-50 px-4 py-2 border-b border-gray-200 flex items-center justify-between">
+                <h2 class="font-bold text-gray-800 text-base">💳 驾照的种类与准驾车型</h2>
+                <span class="text-xs text-gray-500">分类篇</span>
+            </div>
+
+            <div class="p-4 text-sm text-gray-700 space-y-4">
+
+                <!-- 第一种驾照 -->
+                <div>
+                    <span class="inline-block bg-indigo-100 text-indigo-800 text-xs font-bold px-2 py-1 rounded mb-2">第一种驾照 (私家车/自用)</span>
+
+                    <div class="space-y-2">
+                        <!-- 四轮系列 -->
+                        <div class="bg-blue-50 rounded p-2 border border-blue-100">
+                            <h3 class="font-bold text-blue-800 text-xs mb-2">🚗 四轮汽车系列 (包含下位车型)</h3>
+                            <ul class="space-y-1.5 text-xs">
+                                <li class="flex gap-2">
+                                    <span class="font-bold w-16 shrink-0">大型驾照</span>
+                                    <span class="text-gray-600">→ 大型, 中型, 准中型, 普通, 小特, <span class="font-bold text-indigo-600">轻便</span></span>
+                                </li>
+                                <li class="flex gap-2">
+                                    <span class="font-bold w-16 shrink-0">中型驾照</span>
+                                    <span class="text-gray-600">→ 中型, 准中型, 普通, 小特, <span class="font-bold text-indigo-600">轻便</span></span>
+                                </li>
+                                <li class="flex gap-2">
+                                    <span class="font-bold w-16 shrink-0">准中型</span>
+                                    <span class="text-gray-600">→ 准中型, 普通, 小特, <span class="font-bold text-indigo-600">轻便</span></span>
+                                </li>
+                                <li class="flex gap-2">
+                                    <span class="font-bold w-16 shrink-0">普通驾照</span>
+                                    <span class="text-gray-600">→ 普通, 小特, <span class="font-bold text-indigo-600">轻便</span></span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- 二轮系列 -->
+                        <div class="bg-green-50 rounded p-2 border border-green-100">
+                            <h3 class="font-bold text-green-800 text-xs mb-2">🏍️ 二轮摩托系列</h3>
+                            <ul class="space-y-1.5 text-xs">
+                                <li class="flex gap-2">
+                                    <span class="font-bold w-16 shrink-0">大型二轮</span>
+                                    <span class="text-gray-600">→ 大型二轮, 普通二轮, 小特, <span class="font-bold text-indigo-600">轻便</span></span>
+                                </li>
+                                <li class="flex gap-2">
+                                    <span class="font-bold w-16 shrink-0">普通二轮</span>
+                                    <span class="text-gray-600">→ 普通二轮, 小特, <span class="font-bold text-indigo-600">轻便</span></span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- 特殊与牵引 -->
+                        <div class="grid grid-cols-1 gap-2 text-xs pt-1">
+                            <div class="flex gap-2 items-center">
+                                <span class="font-bold w-20 shrink-0">大型特殊</span>
+                                <span class="text-gray-600">→ 大特, 小特, <span class="font-bold text-indigo-600">轻便</span></span>
+                            </div>
+                            <!-- 重点陷阱 -->
+                            <div class="flex gap-2 items-center bg-red-50 p-1.5 rounded -mx-1.5 border border-red-100">
+                                <span class="font-bold w-20 shrink-0 text-red-700">小型特殊</span>
+                                <span class="text-red-700 font-bold">→ ⚠️ 仅限 <span class="border-b border-red-700">小特</span> (❌ 不能开轻便)</span>
+                            </div>
+                            <div class="flex gap-2 items-center">
+                                <span class="font-bold w-20 shrink-0">轻便机动车</span>
+                                <span class="text-gray-600">→ 轻便机动车 (原付)</span>
+                            </div>
+                            <div class="flex gap-2 items-start mt-1">
+                                <span class="font-bold w-20 shrink-0">牵引驾照</span>
+                                <span class="text-gray-600">→ 牵引总重量 <span class="font-bold highlight text-red-600">超过750kg</span> 的车辆时。</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="border-gray-100">
+
+                <!-- 其他类型 -->
+                <div class="grid grid-cols-1 gap-3">
+                    <div class="flex gap-2 items-start">
+                        <span class="bg-amber-100 text-amber-800 text-xs font-bold px-1.5 py-0.5 rounded shrink-0 mt-0.5">第二种驾照</span>
+                        <div class="text-xs text-gray-700">
+                            <p class="mb-0.5"><span class="font-bold">营业目的</span> (运送旅客) 时使用。</p>
+                            <p class="text-gray-500">如：公交车、出租车、代驾。</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-2 items-start">
+                        <span class="bg-gray-200 text-gray-700 text-xs font-bold px-1.5 py-0.5 rounded shrink-0 mt-0.5">临时驾照</span>
+                        <div class="text-xs text-gray-700">
+                            <p class="mb-0.5">用于 <span class="font-bold highlight">道路上练习</span> 或 <span class="font-bold">实际技能考试</span>。</p>
+                            <p class="text-gray-500">适用：大型、中型、准中型、普通汽车。</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION: 装载限制 & 乘员 (NEW) -->
+        <section class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
+            <div class="bg-gray-50 px-4 py-2 border-b border-gray-200 flex items-center justify-between">
+                <h2 class="font-bold text-gray-800 text-base">⚖️ 装载限制 & 乘员计算</h2>
+                <span class="text-xs text-gray-500">数据篇</span>
+            </div>
+
+            <div class="p-4 text-sm text-gray-700 space-y-4">
+
+                <!-- 高度限制 -->
+                <div>
+                    <h3 class="font-bold text-gray-900 text-xs mb-2">📏 地面起算高度</h3>
+                    <div class="grid grid-cols-2 gap-2 text-xs">
+                        <div class="bg-blue-50 p-2 rounded border border-blue-100">
+                            <span class="font-bold text-blue-800 block text-lg mb-1">3.8米</span>
+                            <span class="text-gray-600">一般车辆 (大型/中型/普通/大特)</span>
+                            <span class="block text-[10px] text-gray-400 mt-1">*特许时可达4.1米</span>
+                        </div>
+                        <div class="bg-gray-50 p-2 rounded border border-gray-200">
+                            <div class="mb-2">
+                                <span class="font-bold block text-base">2.5米</span>
+                                <span class="text-gray-600">三轮 / 小普通车(660cc↓)</span>
+                            </div>
+                            <div class="border-t border-gray-300 pt-1">
+                                <span class="font-bold block text-base text-red-600">2.0米</span>
+                                <span class="text-gray-600">摩托车 / 小特 / 轻便</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 宽度与长度 -->
+                <div class="bg-gray-50 p-2 rounded border border-gray-200 text-xs space-y-2">
+                    <div class="flex justify-between items-center">
+                        <span class="font-bold text-gray-700">↔️ 宽度</span>
+                        <div class="text-right">
+                            <span class="block"><span class="font-bold">汽车</span>：车宽为限</span>
+                            <span class="block"><span class="font-bold">摩托/轻便</span>：货台 + 左右各 <span class="font-bold highlight">0.15m</span></span>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center border-t border-gray-200 pt-2">
+                        <span class="font-bold text-gray-700">↕️ 长度</span>
+                        <div class="text-right">
+                            <span class="block"><span class="font-bold">汽车</span>：车长 × 1.1倍</span>
+                            <span class="block"><span class="font-bold">摩托/轻便</span>：货架 + <span class="font-bold highlight">0.3m</span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 积载重量 -->
+                <div class="flex gap-2 text-xs">
+                    <span class="bg-gray-200 px-1.5 py-0.5 rounded font-bold h-fit">⚖️ 重量</span>
+                    <ul class="space-y-1 text-gray-600">
+                        <li><span class="font-bold text-gray-900">小特</span>：500kg</li>
+                        <li><span class="font-bold text-gray-900">大型/普通摩托</span>：60kg</li>
+                        <li><span class="font-bold text-gray-900">原付 (轻便)</span>：30kg</li>
+                    </ul>
+                </div>
+
+                <hr class="border-gray-100">
+
+                <!-- 乘员计算 -->
+                <div class="bg-indigo-50 p-3 rounded border border-indigo-100 flex items-center justify-between">
+                    <div>
+                        <h3 class="font-bold text-indigo-900 text-xs mb-1">👶 儿童乘员计算 (未满12岁)</h3>
+                        <p class="text-xs text-indigo-700">公式：3名儿童 = 2名成人</p>
+                    </div>
+                    <div class="text-xl font-bold text-indigo-300">3👶 = 2🧑</div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION: 高速公路规则 (NEW) -->
+        <section class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
+            <div class="bg-gray-50 px-4 py-2 border-b border-gray-200 flex items-center justify-between">
+                <h2 class="font-bold text-gray-800 text-base">🛣️ 高速公路 (禁止 & 限速)</h2>
+                <span class="text-xs text-gray-500">高速篇</span>
+            </div>
+
+            <div class="p-4 text-sm text-gray-700 space-y-4">
+
+                <!-- 禁止行驶 -->
+                <div>
+                    <h3 class="font-bold text-red-800 text-xs mb-2 flex items-center gap-1">
+                        <span>🚫 禁止上高速的车辆</span>
+                    </h3>
+                    <div class="flex flex-wrap gap-2 text-xs">
+                        <span class="bg-red-50 text-red-700 px-2 py-1 rounded border border-red-100">微型车辆</span>
+                        <span class="bg-red-50 text-red-700 px-2 py-1 rounded border border-red-100">轻便机动车 (原付)</span>
+                        <span class="bg-red-50 text-red-700 px-2 py-1 rounded border border-red-100">小型二轮 (125cc以下)</span>
+                        <span class="bg-red-50 text-red-700 px-2 py-1 rounded border border-red-100">牵引故障车 (用绳索)</span>
+                        <span class="bg-gray-100 text-gray-600 px-2 py-1 rounded border border-gray-200">构造速度 < 50km/h</span>
+                    </div>
+                </div>
+
+                <!-- 禁止事项 -->
+                <div class="text-xs text-gray-600 bg-gray-50 p-2 rounded border border-gray-200">
+                    <span class="font-bold text-gray-800">🚫 禁止动作：</span>
+                    横穿、掉头 (U-turn)、倒车 (后退)、路肩停车。
+                </div>
+
+                <hr class="border-gray-100">
+
+                <!-- 摩托车双人骑行 -->
+                <div class="bg-blue-50 p-2 rounded border border-blue-100 text-xs">
+                    <span class="font-bold text-blue-800 block mb-1">🏍️ 二轮车高速双人骑行条件</span>
+                    <ul class="list-disc list-inside text-blue-900">
+                        <li>年龄 <span class="font-bold">20岁以上</span></li>
+                        <li>驾照持有期 <span class="font-bold">3年以上</span></li>
+                    </ul>
+                </div>
+
+                <hr class="border-gray-100">
+
+                <!-- 最高速度 (必考表格) -->
+                <div>
+                    <h3 class="font-bold text-gray-900 text-xs mb-2">🚀 高速最高速度 (主干道)</h3>
+                    <div class="space-y-2 text-xs">
+
+                        <!-- 100km/h 组 -->
+                        <div class="flex items-stretch border border-green-200 rounded overflow-hidden">
+                            <div class="bg-green-100 w-20 flex items-center justify-center shrink-0 p-1">
+                                <span class="font-bold text-green-800 text-lg">100</span>
+                                <span class="text-[10px] text-green-700 ml-0.5">km/h</span>
+                            </div>
+                            <div class="bg-white p-2 flex-1">
+                                <p class="font-bold text-gray-800">🚗 普通/大型轿车</p>
+                                <p class="font-bold text-gray-800">🏍️ 大型/普通二轮 (>125cc)</p>
+                                <p class="text-gray-500 mt-1">以及：中型/准中型、<span class="font-bold">轻型货车</span> (<8吨总重)</p>
+                            </div>
+                        </div>
+
+                        <!-- 80km/h 组 (易错区) -->
+                        <div class="flex items-stretch border border-yellow-200 rounded overflow-hidden">
+                            <div class="bg-yellow-100 w-20 flex items-center justify-center shrink-0 p-1">
+                                <span class="font-bold text-yellow-800 text-lg">80</span>
+                                <span class="text-[10px] text-yellow-700 ml-0.5">km/h</span>
+                            </div>
+                            <div class="bg-white p-2 flex-1">
+                                <p class="font-bold text-gray-800">🚛 大型货车 (总重≥8吨 / 载重≥5吨)</p>
+                                <p class="font-bold text-gray-800">🚜 大型特殊、三轮机动车</p>
+                                <p class="font-bold text-gray-800">🔗 牵引车 (拖车时)</p>
+                            </div>
+                        </div>
+
+                        <!-- 最低速度 -->
+                        <div class="flex justify-between items-center text-xs text-gray-500 pt-1 px-1">
+                            <span>*最低速度限制：<span class="font-bold text-gray-700">50km/h</span></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center text-gray-400 text-xs py-6 border-t border-gray-200 mt-4 bg-gray-50">
+        <p class="mb-1">祝您考试顺利！合格！💯</p>
+        <p>© 驾考复习专用笔记</p>
+    </footer>
+
+</body>
+</html>
